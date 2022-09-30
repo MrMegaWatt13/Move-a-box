@@ -1,0 +1,17 @@
+#thebox{
+    backround-color: white;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    postion: relative;
+}
+button{
+   touch-action: manipulation;
+   backround-color: gray;
+   position: absolute;
+   text-align: center;
+   color: black;
+   padding: 7px 21px;
+   font-size: 8px;
+   cursor: pointer;
+}
