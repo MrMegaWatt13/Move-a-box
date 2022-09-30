@@ -2,26 +2,19 @@ const thebox = document.getElementById("thebox");
 let x = 0;
 let y = 0;
 
-function move(){
-
-    switch(){
-    case "goUp":
+function moveUP(){
         y+=1;
         thebox.style.top = y + "px";
-        break;
-    case "goDown":
+};
+function moveDOWN(){
         y-=1;
         thebox.style.top = y - "px";
-        break;
-    case "goLeft":
+};
+function goLEFT(){
         x+=1;
         thebox.style.left = x + "px";
-        break;
-    case "goRight":
+}
+function goRIGHT(){
         x-=1;
         thebox.style.left = x - "px";
-        break;
-    default:
-        break;
-    }
-}
+};
